@@ -5,7 +5,7 @@ my_player = get_player_data("https://www.baseball-reference.com/players/b/brantm
 teams = list(my_player.teams.keys())
 years = list(my_player.teams.values())
 
-print("Running")
+print("Run")
 
 class Matike(Scene):
     def construct(self):
